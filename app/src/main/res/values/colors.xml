@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Main app colors -->
+    <color name="background">#f4f4f4</color>
+    <color name="toolbar_bg">#3f51b5</color>
+    <color name="toolbar_tint">#303f9f</color>
+    <color name="accent">#e91e63</color>
+
+    <!-- Card & Item colors -->
+    <color name="primary_text">#d9212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="text_error">@color/material_red</color>
+    <color name="card_separator">#e4e4e4</color>
+    <color name="card_border">#ffdedede</color>
+    <color name="card_background">#ffffffff</color>
+    <color name="item_pressed">#f8f8f8</color>
+    <color name="item_action">#ff01579b</color>
+
+    <!-- Navigation Drawer -->
+    <color name="navdrawer_title">@color/primary_text</color>
+    <color name="navdrawer_title_selected">@color/toolbar_bg</color>
+    <color name="navdrawer_icon">#888</color>
+    <color name="navdrawer_icon_selected">@color/toolbar_bg</color>
+
+    <!-- Notices Card colors -->
+    <color name="material_blue">#2196F3</color>
+    <color name="material_green">#4CAF50</color>
+    <color name="material_orange">#FF5722</color>
+    <color name="material_red">#F44336</color>
+</resources>

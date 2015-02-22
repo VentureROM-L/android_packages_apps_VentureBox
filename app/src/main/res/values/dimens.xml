@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="navigation_drawer_width">260dp</dimen>
+    <dimen name="keyline_1">16dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="actionbar_height">48dp</dimen>
+
+    <dimen name="activity_divider_padding">16dip</dimen>
+
+    <dimen name="drawer_width">240dp</dimen>
+    <dimen name="drawer_item_padding_left">20dp</dimen>
+    <dimen name="drawer_item_padding_top">25dp</dimen>
+    <dimen name="drawer_item_padding_top_small">15dp</dimen>
+
+    <dimen name="header_text_size">32sp</dimen>
+    <dimen name="header_underline_size">2dp</dimen>
+    <dimen name="header_underline_top_margin">3dp</dimen>
+    <dimen name="header_underline_bottom_margin">15dp</dimen>
+
+    <!-- CardView dimens -->
+    <dimen name="card_elevation">2dp</dimen>
+    <dimen name="card_marginStartEnd">8dp</dimen>
+    <dimen name="card_marginBottom">12dp</dimen>
+    <dimen name="card_textSize">16sp</dimen>
+    <dimen name="card_title_padding">8dp</dimen>
+    <dimen name="card_separator_height">1dp</dimen>
+
+    <!-- Item dimens -->
+    <dimen name="item_padding">10dp</dimen>
+
+    <integer name="anim_duration">400</integer>
+</resources>

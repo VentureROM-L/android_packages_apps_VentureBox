@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Card attributes -->
+    <declare-styleable name="CardView">
+        <attr name="cardTopTitle" format="string" />
+        <attr name="cardTitle" format="string" />
+    </declare-styleable>
+
+    <!-- Item attributes -->
+    <declare-styleable name="Item">
+        <attr name="itemTitle" format="string" />
+        <attr name="itemIcon" format="integer" />
+    </declare-styleable>
+</resources>

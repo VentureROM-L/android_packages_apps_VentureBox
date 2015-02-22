@@ -1,0 +1,22 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/toolbar_bg</item>
+        <item name="android:colorPrimaryDark">@color/toolbar_tint</item>
+        <item name="android:colorAccent">@color/accent</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="CardViewStyle">
+        <item name="android:elevation">@dimen/card_elevation</item>
+        <item name="android:background">@color/card_background</item>
+        <item name="android:layout_marginBottom">@dimen/card_marginBottom</item>
+        <item name="android:layout_marginEnd">@dimen/card_marginStartEnd</item>
+        <item name="android:layout_marginStart">@dimen/card_marginStartEnd</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+</resources>

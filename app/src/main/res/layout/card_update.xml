@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:animateLayoutChanges="true">
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/secondary_text"
+            android:textSize="@dimen/card_textSize" />
+
+        <ProgressBar
+            android:id="@+id/wait_progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/error"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_error"
+            android:textSize="@dimen/card_textSize" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/additional"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/card_separator_height"
+            android:background="@color/card_border" />
+
+        <TextView
+            android:id="@+id/additional_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/no_additional_info"
+            android:textColor="@color/secondary_text"
+            android:textSize="@dimen/card_textSize" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/card_separator_height"
+        android:background="@color/card_border" />
+
+    <com.chintans.venturebox.widget.Item
+        android:id="@+id/check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:itemIcon="@drawable/ic_check"
+        app:itemTitle="@string/check_for_updates" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/card_separator_height"
+        android:background="@color/card_border" />
+
+    <com.chintans.venturebox.widget.Item
+        android:id="@+id/download"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:itemIcon="@drawable/ic_download"
+        app:itemTitle="@string/download_and_install" />
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Settings Activity -->
+    <!-- Update check frequency -->
+    <string-array name="time_notifications_entries">
+        <item>@string/time_notifications_never</item>
+        <item>@string/time_notifications_half_an_hour</item>
+        <item>@string/time_notifications_an_hour</item>
+        <item>@string/time_notifications_two_hours</item>
+        <item>@string/time_notifications_five_hours</item>
+        <item>@string/time_notifications_daily</item>
+    </string-array>
+    <string-array name="time_notifications_values" translatable="false">
+        <item>-1</item>
+        <item>1800000</item>
+        <item>3600000</item>
+        <item>7200000</item>
+        <item>18000000</item>
+        <item>86400000</item>
+    </string-array>
+
+    <!-- GApps Type -->
+    <string-array name="gapps_type_entries">
+        <item>@string/gapps_type_stock</item>
+        <item>@string/gapps_type_full</item>
+        <item>@string/gapps_type_mini</item>
+        <item>@string/gapps_type_micro</item>
+    </string-array>
+    <string-array name="gapps_type_values" translatable="false">
+        <item>2</item>
+        <item>0</item>
+        <item>1</item>
+        <item>3</item>
+    </string-array>
+    <!-- End of Settings Activity -->
+</resources>
